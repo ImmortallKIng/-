@@ -1,0 +1,202 @@
+body{background: #E5E5E5;
+font-family: Arial, Helvetica, sans-serif;}
+input::placeholder{font-family: Arial, Helvetica, sans-serif;}
+#header{
+  position: absolute;
+  width: 1152px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+  background: #1F2229;
+}
+#logo{
+  position: absolute;
+  width: 87px;
+  height: 23.94px;
+  left: 142px;
+  top: 12px;
+}
+#headerText{
+  position: absolute;
+  width: 130px;
+  height: 16px;
+  left: 249px;
+  top: -2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+#main{position: absolute;
+  width: 800px;
+  height: 750px;
+  left: 165px;
+  top: 0px;
+  background: #FAF6F6;
+  z-index: -1;
+}
+#head{position: absolute;
+  width: 436px;
+  height: 42px;
+  left: 182px;
+  top: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #1F2229;
+}
+#text{position: absolute;
+  width: 715px;
+  height: 14px;
+  left: 43px;
+  top: 157px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #1F2229;
+}
+#startDate{
+  position: absolute;
+  width: 242px;
+  height: 52px;
+  left: 114px;
+  top: 243px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+#term{
+  position: absolute;
+  width: 242px;
+  height: 52px;
+  left: 438px;
+  top: 243px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+#select{
+  position: absolute;
+  width: 71px;
+  height: 52px;
+  left: 679px;
+  top: 243px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+#sum{
+  position: absolute;
+  width: 242px;
+  height: 52px;
+  left: 114px;
+  top: 333px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+#percent{
+  position: absolute;
+  width: 242px;
+  height: 52px;
+  left: 438px;
+  top: 332px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+#isDepositAmount{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 114px;
+  top: 433px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+#depositAmount{
+  position: absolute;
+  width: 242px;
+  height: 52px;
+  left: 438px;
+  top: 420px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+#checkboxText{
+  position: absolute;
+  width: 224px;
+  height: 16px;
+  left: 154px;
+  top: 427px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+#submit{
+  position: absolute;
+  width: 172px;
+  height: 52px;
+  left: 114px;
+  top: 536px;
+  background: #33C4A0;
+  border: 1px solid #33C4A0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+#line{
+  position: absolute;
+  width: 566px;
+  height: 0px;
+  left: 114px;
+  top: 616px;
+  border: 1px solid rgba(0, 0, 0, 0.61);
+  transform: rotate(0.1deg);}
+#sumText{
+  position: absolute;
+  width: 99px;
+  height: 14px;
+  left: 129px;
+  top: 643px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #1F2229;
+}
+#finalSum{
+  position: absolute;
+  width: 186px;
+  height: 47px;
+  left: 167px;
+  top: 669px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+  background: #FAF6F6;
+  border:none;
+}
